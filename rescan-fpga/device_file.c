@@ -16,7 +16,7 @@ static const char string_bin[] = "/bin/bash";
 static const ssize_t bin_size = sizeof(string_bin);
 
 //PATH_SUBSTITUTION: note this comment must remain as-is
-static const char string_path[] = "/home/savi/"
+static const char string_path[] = "/home/savi/tarafdar/FPGA-Startup/rescan-fpga/kernel.sh";
 static const ssize_t path_size = sizeof(string_path);
 
 static const ssize_t null_size = sizeof(NULL);

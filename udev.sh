@@ -7,6 +7,6 @@
 ################################################################################
 
 mkdir -p /etc/udev/scripts
-mv ./udev/*.py /etc/udev/scripts
-mv ./udev/53-fpga-usb.rules /etc/udev/rules.d/
+cp ./udev/*.py /etc/udev/scripts
+cp ./udev/53-fpga-usb.rules /etc/udev/rules.d/
 python /etc/udev/scripts/write_json.py
