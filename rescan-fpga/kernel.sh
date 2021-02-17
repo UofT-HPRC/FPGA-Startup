@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # PATH_SUBSTITUTION: note this comment must remain as-is
-repoPath="/home/savi/"
+repoPath="/home/savi/tarafdar/ece1373/FPGA-Startup/rescan-fpga/kernel.sh";
 
 file=$(grep --include="sourceme*.sh" -rlw $repoPath -e $1)
 if [[ ! -f $file ]]; then
