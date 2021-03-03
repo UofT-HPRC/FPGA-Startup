@@ -13,6 +13,7 @@ CLEAR_BIT_PATH=../bitstreams/clear.bit
 #  exit 1
 #fi
 #
+source /opt/mnt/Xilinx/vivado_setup 2017.2
 if [ $# -ne 2 ]; then
   echo $0 requires two arguments: bitstream and clearing bitstream
   exit 1

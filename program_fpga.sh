@@ -12,7 +12,7 @@ fi
 
 source fpga.conf
 #source /opt/mnt/Xilinx/$VIVADO_PATH/$VIVADO_VERSION/settings64.sh
-source /opt/mnt/Xilinx/vivado_setup "2018.3"
+source /opt/mnt/Xilinx/vivado_setup "2017.2"
 
 #check if the FPGA serial argument exists on this computer
 serialFile=$(grep -Elir --include=$FPGA_SERIAL "$1")
